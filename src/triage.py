@@ -45,6 +45,7 @@ def main() -> None:
     # Write results
     repo_root = Path(__file__).resolve().parents[1]
     output_path = repo_root / "output" / "results.csv"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     scored_df.to_csv(output_path, index=False)
 
     print("\n✅ Triage complete.")
