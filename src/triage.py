@@ -41,6 +41,8 @@ def main() -> None:
     ]
 
     scored_df = scored_df[output_cols]
+    print("COLUMNS:", list(scored_df.columns))
+    print("ROWS:", len(scored_df))
 
     # Write results
     repo_root = Path(__file__).resolve().parents[1]
