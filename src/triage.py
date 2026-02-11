@@ -48,11 +48,11 @@ def main() -> None:
     print("ROWS:", len(scored_df))
 
     # ---- Final output polish ----
-run_id = str(uuid.uuid4())
-generated_at = datetime.now().isoformat(timespec="seconds")
+    run_id = str(uuid.uuid4())
+    generated_at = datetime.now().isoformat(timespec="seconds")
 
-scored_df.insert(0, "run_id", run_id)
-scored_df.insert(1, "generated_at", generated_at)
+    scored_df.insert(0, "run_id", run_id)
+    scored_df.insert(1, "generated_at", generated_at)
 
 # Stable sorting (highest risk first)
 scored_df = scored_df.sort_values(
