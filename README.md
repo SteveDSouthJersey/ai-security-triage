@@ -8,12 +8,17 @@ This project simulates a realistic security triage workflow used by SOC and vuln
 
 🎯 What This Project Does
 
-✔ Merges asset context with vulnerability findings
-✔ Applies weighted, explainable risk scoring
-✔ Assigns human-readable risk tiers (Critical / High / Medium / Low)
-✔ Categorizes risk type (e.g., Network Exposure, Business Impact)
-✔ Flags escalation scenarios with justification
-✔ Produces decision-ready, sorted output
+Merges asset context with vulnerability findings
+
+Applies weighted, explainable risk scoring
+
+Assigns human-readable risk tiers (Critical / High / Medium / Low)
+
+Categorizes risk type (e.g., Network Exposure, Business Impact)
+
+Flags escalation scenarios with justification
+
+Produces decision-ready, sorted output
 
 ⚙️ How It Works
 1️⃣ Ingestion
@@ -90,7 +95,7 @@ run_id
 
 generated_at
 
-asset context fields
+Asset context fields
 
 risk_score
 
@@ -159,4 +164,3 @@ Lightweight dashboard
 Extended scoring weight configuration
 
 CI pipeline integration
-
