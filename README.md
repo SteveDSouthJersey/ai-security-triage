@@ -1,3 +1,14 @@
+## Project Overview
+
+This repository demonstrates a containerized vulnerability prioritization pipeline designed for team deployment and reproducible security analysis. 
+
+The system moves beyond raw CVSS scoring by incorporating business impact, asset exposure, and operational context into a unified risk score. 
+
+I designed the scoring logic, structured the repository for collaborative use, and containerized the tool with Docker so teammates could deploy and test the pipeline consistently across environments.
+
+
+
+
 🔐 AI Security Triage
 
 AI Security Triage is a structured, explainable Python-based vulnerability prioritization engine.
